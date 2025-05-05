@@ -1,4 +1,4 @@
-const About = () => {
+const Pricing = () => {
     return (  
         <div>
             Pricing Page
@@ -6,4 +6,4 @@ const About = () => {
     );
 }
  
-export default About;
+export default Pricing;
