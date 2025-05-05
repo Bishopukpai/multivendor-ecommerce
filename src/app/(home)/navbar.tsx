@@ -53,7 +53,7 @@ export const Navbar = () => {
     const pathname = usePathname()
 
     //Create a state to check if the side bar is open
-    const [isSidebarOpen, setisSidebarOpen] = useState(true)
+    const [isSidebarOpen, setisSidebarOpen] = useState(false)
 
     return (  
         <nav className="h-20 flex border-b justify-between font-medium bg-white">
